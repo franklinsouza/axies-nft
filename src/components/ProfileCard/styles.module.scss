@@ -1,0 +1,44 @@
+@import '../../styles/variables.scss';
+
+.card {
+  // max-width: 130px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  &__avatarWrap {
+    margin-bottom: .8125rem;
+    position: relative;
+  }
+
+  &__avatar {
+    border-radius: 33px;
+    overflow: hidden;
+  }
+
+  &__badge {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: $purple;
+    border-radius: 50%;
+    padding: .25rem;
+  }
+
+  &__name {
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-bottom: .25rem;
+  }
+
+  &__price {
+    text-transform: uppercase;
+    font-size: .9375rem;
+    color: #7A798A;
+    font-weight: 700;
+  }
+}

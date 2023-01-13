@@ -1,0 +1,314 @@
+{
+  "creators": [
+    {
+      "id": 0,
+      "name": "Crispin Berry",
+      "img": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset21.jpeg?v=1673549511391",
+      "price": "214.2 ETH"
+    },
+    {
+      "id": 1,
+      "name": "Samson Frost",
+      "img": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset22.jpeg?v=1673549511864",
+      "price": "214.2 ETH"
+    },
+    {
+      "id": 2,
+      "name": "Tommy Alvarez",
+      "img": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset23.jpeg?v=1673549512368",
+      "price": "214.2 ETH"
+    },
+    {
+      "id": 3,
+      "name": "Windsor Lane",
+      "img": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset3.jpeg?v=1673549508957",
+      "price": "214.2 ETH"
+    },
+    {
+      "id": 4,
+      "name": "Andy Hurlbutt",
+      "img": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset24.jpeg?v=1673549512933",
+      "price": "214.2 ETH"
+    },
+    {
+      "id": 5,
+      "name": "Blake Banks",
+      "img": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset25.jpeg?v=1673549513435",
+      "price": "214.2 ETH"
+    },
+    {
+      "id": 6,
+      "name": "Monica Lucas",
+      "img": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset2.jpeg?v=1673549508495",
+      "price": "214.2 ETH"
+    },
+    {
+      "id": 7,
+      "name": "Matt Ramos",
+      "img": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset26.jpeg?v=1673549513934",
+      "price": "214.2 ETH"
+    },
+    {
+      "id": 8,
+      "name": "Harper Wilcher",
+      "img": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset27.jpeg?v=1673549514485",
+      "price": "214.2 ETH"
+    }
+  ],
+
+  "liveAuctions": [
+    {
+      "id": 0,
+      "name": "Hamlet Contemplates Contemplates",
+      "img": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset13.jpeg?v=1673549509425",
+      "likes": 100,
+      "profileName": "Crispin Berry",
+      "role": "Creator",
+      "profileImg": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset21.jpeg?v=1673549511391",
+      "price": 4.89,
+      "current": "ETH",
+      "tag": "BSC",
+      "exp": "31/12/2022"
+    },
+    {
+      "id": 1,
+      "name": "Triumphant Awakening Contemplates",
+      "img": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset15.jpeg?v=1673549509939",
+      "likes": 100,
+      "profileName": "Samson Frost",
+      "role": "Creator",
+      "profileImg": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset22.jpeg?v=1673549511864",
+      "price": 4.89,
+      "current": "ETH",
+      "tag": "BSC",
+      "exp": "31/12/2022"
+    },
+    {
+      "id": 2,
+      "name": "Living Vase 01 by Lanza Contemplates",
+      "img": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset17.jpeg?v=1673549510440",
+      "likes": 100,
+      "profileName": "Tommy Alvarez",
+      "role": "Creator",
+      "profileImg": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset23.jpeg?v=1673549512368",
+      "price": 4.89,
+      "current": "ETH",
+      "tag": "BSC",
+      "exp": "31/12/2022"
+    },
+    {
+      "id": 3,
+      "name": "Flame Dress' by Balmain Contemplates",
+      "img": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset19.jpeg?v=1673549510909",
+      "likes": 100,
+      "profileName": "Windsor Lane",
+      "role": "Creator",
+      "profileImg": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset3.jpeg?v=1673549508957",
+      "price": 4.89,
+      "current": "ETH",
+      "tag": "BSC",
+      "exp": "31/12/2022"
+    },
+    {
+      "id": 4,
+      "name": "The RenaiXance Rising the sun",
+      "img": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset32.jpeg?v=1673549515001",
+      "likes": 100,
+      "profileName": "Andy Hurlbutt",
+      "role": "Creator",
+      "profileImg": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset24.jpeg?v=1673549512933",
+      "price": 4.89,
+      "current": "ETH",
+      "tag": "BSC",
+      "exp": "31/12/2022"
+    },
+    {
+      "id": 5,
+      "name": "Space babe - Night 2/25",
+      "img": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset33.jpeg?v=1673549515519",
+      "likes": 100,
+      "profileName": "Blake Banks",
+      "role": "Creator",
+      "profileImg": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset25.jpeg?v=1673549513435",
+      "price": 4.89,
+      "current": "ETH",
+      "tag": "BSC",
+      "exp": "31/12/2022"
+    },
+    {
+      "id": 6,
+      "name": "CyberPrimal 042 LAN",
+      "img": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset34.jpeg?v=1673549516069",
+      "likes": 100,
+      "profileName": "Monica Lucas",
+      "role": "Creator",
+      "profileImg": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset2.jpeg?v=1673549508495",
+      "price": 4.89,
+      "current": "ETH",
+      "tag": "BSC",
+      "exp": "31/12/2022"
+    },
+    {
+      "id": 7,
+      "name": "Crypto Egg Stamp #5",
+      "img": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset35.jpeg?v=1673549516525",
+      "likes": 100,
+      "profileName": "Matt Ramos",
+      "role": "Creator",
+      "profileImg": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset26.jpeg?v=1673549513934",
+      "price": 4.89,
+      "current": "ETH",
+      "tag": "BSC",
+      "exp": "31/12/2022"
+    },
+    {
+      "id": 8,
+      "name": "Sir. Lion Swag #371",
+      "img": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset36.jpeg?v=1673549517044",
+      "likes": 100,
+      "profileName": "Harper Wilcher",
+      "role": "Creator",
+      "profileImg": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset27.jpeg?v=1673549514485",
+      "price": 4.89,
+      "current": "ETH",
+      "tag": "BSC",
+      "exp": "31/12/2022"
+    }
+  ],
+
+  "todaysPicks": [
+    {
+      "id": 0,
+      "name": "Hamlet Contemplates Contemplates",
+      "img": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset13.jpeg?v=1673549509425",
+      "likes": 100,
+      "profileName": "Crispin Berry",
+      "role": "Creator",
+      "profileImg": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset21.jpeg?v=1673549511391",
+      "price": 4.89,
+      "current": "ETH",
+      "tag": "BSC",
+      "exp": "31/12/2022"
+    },
+    {
+      "id": 1,
+      "name": "Triumphant Awakening Contemplates",
+      "img": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset15.jpeg?v=1673549509939",
+      "likes": 100,
+      "profileName": "Samson Frost",
+      "role": "Creator",
+      "profileImg": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset22.jpeg?v=1673549511864",
+      "price": 4.89,
+      "current": "ETH",
+      "tag": "BSC",
+      "exp": "31/12/2022"
+    },
+    {
+      "id": 2,
+      "name": "Living Vase 01 by Lanza Contemplates",
+      "img": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset17.jpeg?v=1673549510440",
+      "likes": 100,
+      "profileName": "Tommy Alvarez",
+      "role": "Creator",
+      "profileImg": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset23.jpeg?v=1673549512368",
+      "price": 4.89,
+      "current": "ETH",
+      "tag": "BSC",
+      "exp": "31/12/2022"
+    },
+    {
+      "id": 3,
+      "name": "Flame Dress' by Balmain Contemplates",
+      "img": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset19.jpeg?v=1673549510909",
+      "likes": 100,
+      "profileName": "Windsor Lane",
+      "role": "Creator",
+      "profileImg": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset3.jpeg?v=1673549508957",
+      "price": 4.89,
+      "current": "ETH",
+      "tag": "BSC",
+      "exp": "31/12/2022"
+    },
+    {
+      "id": 4,
+      "name": "The RenaiXance Rising the sun",
+      "img": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset32.jpeg?v=1673549515001",
+      "likes": 100,
+      "profileName": "Andy Hurlbutt",
+      "role": "Creator",
+      "profileImg": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset24.jpeg?v=1673549512933",
+      "price": 4.89,
+      "current": "ETH",
+      "tag": "BSC",
+      "exp": "31/12/2022"
+    },
+    {
+      "id": 5,
+      "name": "Space babe - Night 2/25",
+      "img": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset33.jpeg?v=1673549515519",
+      "likes": 100,
+      "profileName": "Blake Banks",
+      "role": "Creator",
+      "profileImg": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset25.jpeg?v=1673549513435",
+      "price": 4.89,
+      "current": "ETH",
+      "tag": "BSC",
+      "exp": "31/12/2022"
+    },
+    {
+      "id": 6,
+      "name": "CyberPrimal 042 LAN",
+      "img": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset34.jpeg?v=1673549516069",
+      "likes": 100,
+      "profileName": "Monica Lucas",
+      "role": "Creator",
+      "profileImg": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset2.jpeg?v=1673549508495",
+      "price": 4.89,
+      "current": "ETH",
+      "tag": "BSC",
+      "exp": "31/12/2022"
+    },
+    {
+      "id": 7,
+      "name": "Crypto Egg Stamp #5",
+      "img": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset35.jpeg?v=1673549516525",
+      "likes": 100,
+      "profileName": "Matt Ramos",
+      "role": "Creator",
+      "profileImg": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset26.jpeg?v=1673549513934",
+      "price": 4.89,
+      "current": "ETH",
+      "tag": "BSC",
+      "exp": "31/12/2022"
+    },
+    {
+      "id": 8,
+      "name": "Sir. Lion Swag #371",
+      "img": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset36.jpeg?v=1673549517044",
+      "likes": 100,
+      "profileName": "Harper Wilcher",
+      "role": "Creator",
+      "profileImg": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset27.jpeg?v=1673549514485",
+      "price": 4.89,
+      "current": "ETH",
+      "tag": "BSC",
+      "exp": "31/12/2022"
+    }
+  ],
+
+  "popularCollection" : [
+    {
+      "title": "Creative Art Collection",
+      "authorImg": "https://cdn.glitch.global/2077400c-c159-4a67-855a-c62b60dd0565/asset21.jpeg?v=1673549511391",
+      "authorName": "Crispin Berry",
+      "likes": 100,
+      "itemProducts": 12,
+      "imgs": [
+        "https://demothemesflat.com/axies/assets/images/box-item/collection-item-2.jpg",
+        "https://demothemesflat.com/axies/assets/images/box-item/collection-item-top-1.jpg",
+        "https://demothemesflat.com/axies/assets/images/box-item/collection-item-top-2.jpg",
+        "https://demothemesflat.com/axies/assets/images/box-item/collection-item-bottom-4.jpg"
+      ]
+    }
+  ]
+}

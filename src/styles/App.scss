@@ -1,0 +1,110 @@
+@use './mixin.scss' as mixin;
+@import './variables.scss';
+
+.container {
+  width: 100%;
+  margin: auto;
+  padding: 0 1rem;
+
+  @include mixin.phone {
+    max-width: $sm;
+  }
+
+  @include mixin.tablet {
+    max-width: $md;
+  }
+
+  @include mixin.desktop {
+    max-width: $lg;
+  }
+
+  @include mixin.xl-desktop {
+    max-width: $xl;
+  }
+
+  @include mixin.xxl-desktop {
+    max-width: $xxl;
+  }
+}
+
+.section {
+  padding: 30px 0;
+  position: relative;
+}
+
+.swiper-pagination-horizontal.swiper-pagination {
+  position: relative;
+  top: 0;
+  padding: .3125rem 0;
+  margin-top: 12px;
+
+  span.swiper-pagination-bullet {
+    border: 1px solid $white;
+    background-color: #fff;
+    position: relative;
+    margin: 0 7px;
+  }
+
+  .swiper-pagination-bullet-active:before {
+    position: absolute;
+    border: 1px solid $white;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    content: "";
+    width: 16px;
+    height: 16px;
+    overflow: visible;
+  }
+}
+
+.navigation {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 45px;
+  margin-top: 30px;
+  column-gap: 10px;
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 38px;
+    height: 38px;
+    border: 2px solid $purple;
+    position: relative;
+    left: initial;
+    right: initial;
+    border-radius: 50%;
+  }
+
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 1.0625rem;
+    color: $white;
+  }
+}
+
+.filterLine {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2.5rem;
+  flex-direction: column;
+  gap: .75rem;
+
+  @include mixin.tablet {
+    flex-direction: row;
+  }
+
+  &__boxLeft {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+  }
+
+  &__boxRight { 
+    flex-shrink: 0;
+  }
+}
