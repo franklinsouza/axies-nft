@@ -14,16 +14,16 @@ import SectionHeader from '../SectionHeader';
 
 
 const TopSeller = () => {
-  const { data: creatorData, loading: creatorsLoading, error: creatorsError } = useFetch('/creators');
+  const { data, loading, error } = useFetch('/users');
 
   return (
     <>
       <SectionHeader title='Top Seller'/>
   
-      { creatorsLoading && <Loading />}
+      { loading && <Loading />}
 
       {
-        creatorData &&
+        data &&
         <>
           <div className='navigation'>
             <div className='swiper-button-prev'></div>
@@ -51,7 +51,7 @@ const TopSeller = () => {
               }
             }}
           >
-            {creatorData.map( profile => 
+            {data.map( profile => 
               <SwiperSlide key={profile.id.toString()}>
                 <ProfileCard  
                   name={profile.name} 

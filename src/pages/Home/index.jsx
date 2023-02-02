@@ -1,11 +1,11 @@
-//import styles from './styles.module.scss';
-
 import Header from '../../components/Header';
 import Hero from './Hero';
-import SectionHeader from '../../components/SectionHeader';
 import LiveAuction from '../../components/LiveAuctions';
 import TopSeller from '../../components/TopSeller';
 import TodaysPicks from './TodaysPicks';
+import PopularCollection from './PopularCollection';
+import PreFooter from './PreFooter';
+
 
 export default function Home() {  
   return (
@@ -28,7 +28,11 @@ export default function Home() {
         </section>
 
         <section className='section'>
-          <SectionHeader title='Popular Collection' link='Explore more' url='#' />
+          <PopularCollection />
+        </section>
+
+        <section className='section'>
+          <PreFooter />
         </section>
       </div>
     </>

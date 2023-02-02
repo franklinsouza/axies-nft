@@ -3,9 +3,10 @@ import ButtonFilter from '../../../components/ButtonFilter';
 import Loading from '../../../components/Loading';
 import NftCard from '../../../components/Nftcard';
 import SectionHeader from '../../../components/SectionHeader';
+import styles from './styles.module.scss';
 
 const TodaysPicks = () => {
-  const { data: todaysPicksData, loading: todaysPicksLoading, error: todaysPicksError } = useFetch('/todaysPicks');
+  const { data, loading, error } = useFetch('/todaysPicks/?_expand=users');
 
   return (
     <>
@@ -56,21 +57,22 @@ const TodaysPicks = () => {
         </div>
       </div>
 
-      { todaysPicksLoading && <Loading />}
+      { loading && <Loading />}
 
       {
-        todaysPicksData &&
-        <div style={{display: 'flex', flexWrap: 'wrap'}}>
-          {todaysPicksData.map( picks => 
+        data &&
+        <div className={styles.todaysPicks}>
+          {data.map( pick => 
             <NftCard 
-              key={picks.id}
-              name={picks.name} 
-              img={picks.img} 
-              role={picks.role}
-              profileAvatar={picks.profileImg}
-              profileName={picks.profileName}
-              price={picks.price}
-              current={picks.current}
+              key={pick.id}
+              id={pick.id}
+              name={pick.name} 
+              img={pick.img} 
+              price={pick.price}
+              current={pick.current}
+              profileAvatar={pick.users.img}
+              profileName={pick.users.name}
+              role={pick.users.role}
             />
           )}
         </div>

@@ -1,20 +1,21 @@
+import { Link } from 'react-router-dom'
 import styles from './styles.module.scss'
 
-export default function NftCard ({name, img, profileName, price, current, role, profileAvatar}) {
+export default function NftCard ({id, name, img, profileName, price, current, role, profileAvatar}) {
   return (
     <div className={styles.card}>
       <div className={styles.card__cover}>
-        <a href='#'>
+        <Link to={`/detail/${id}`}>
           <img src={img} className={styles.card__coverImg} />
-        </a>
+        </Link>
       </div>
       <div className={styles.card__content}>
 
         <div className={styles.card__title}>
           <h3 className={styles.card__nft_title}>
-            <a href='#'>
+            <Link to={`/detail/${id}`}>
               {name}
-            </a>
+            </Link>
           </h3>
 
           <div className={styles.card__tag}>

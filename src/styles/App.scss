@@ -1,6 +1,11 @@
 @use './mixin.scss' as mixin;
 @import './variables.scss';
 
+#root {
+  overflow-x: hidden;
+  padding-top: 90px;
+}
+
 .container {
   width: 100%;
   margin: auto;

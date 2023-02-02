@@ -1,0 +1,17 @@
+@use '../../../styles/mixin.scss' as mixin;
+
+.lineCollection {
+  display: grid;
+  gap: .9375rem;
+  grid-template-columns: 1fr;
+
+  @include mixin.tablet {
+    gap: 1.25rem;
+    grid-template-columns: 2fr 2fr;
+  }
+
+  @include mixin.desktop {
+    gap: 1.875rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

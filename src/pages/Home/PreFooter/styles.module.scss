@@ -1,0 +1,38 @@
+@use '../../../styles/mixin.scss' as mixin;
+
+.preFooter {
+  padding-top: 2.5rem;
+
+  &__sectionTitle {
+    font-size: 2.25rem;
+    margin-bottom: 2.8125rem;
+    font-weight: 700;
+  }
+
+  &__lineIcons {
+    display: grid;
+    gap: 33px;
+
+    @include mixin.phone {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include mixin.desktop {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  &__icon {
+    margin-bottom: 1.875rem;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    margin-bottom: .875rem;
+  }
+
+  &__text {
+    font-size: .875rem;
+    line-height: 1.375rem;
+  }
+}

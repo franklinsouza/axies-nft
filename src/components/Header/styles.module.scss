@@ -1,12 +1,49 @@
+@use '../../styles/mixin.scss' as mixin;
+
 .header {
   border-bottom: 1px solid #ebebeb33;
   padding: 1rem 0;
   position: absolute;
   width: 100%;
   top: 0;
+
+  &__menu {
+    width: 100%;
+    list-style-type: none;
+    position: absolute;
+    top: calc(100% + 1px);
+    left: 0;
+    background-color: #14141F;
+    z-index: 10;
+    display: none;
+
+    
+    @include mixin.desktop {
+      display: flex;
+      flex-direction: row;
+      position: initial;
+      margin-left: 15px;
+    }
+
+    li {
+      border-bottom: 1px solid rgba(235, 235, 235, 0.2);
+
+      @include mixin.desktop { 
+        border: none;
+      }
+    }
+
+    a {
+      font-weight: 700;
+      font-size: 1.0625rem;
+      padding: 13px 0;
+      display: inline-block;
+    }
+  }
 }
 
 .wrap{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }

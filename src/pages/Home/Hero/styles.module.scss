@@ -1,37 +1,85 @@
+@use '../../../styles/mixin.scss' as mixin;
 @import '../../../styles/variables.scss';
 
-.content{
-  width: 100%;
-}
-
-.title {
-  font-size: 3.375rem;
-  font-weight: 700;
-  line-height: 3.5rem;
-
-  span {
-    color: #14141f;
-    background: linear-gradient(-45deg, #E250E5, #4B50E6, #E250E5, #4B50E6);
-    background-size: 100% 100%;
-    -webkit-background-clip: text;
-    -webkit-text-stroke: 3px transparent;
-    font-size: 2.5rem;
-  }
-}
-
-.subtitle{
-  margin-top: 30px;
-  margin-bottom: 44px;
-  font-size: 1.25rem;
-  line-height: 1.875rem;
-  color: $white_2;
-}
-
 .hero {
-  height: 75vh;
+  min-height: 75vh;
   border-bottom: 1px solid #343444;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding-top: 90px;
+  padding: 40px 0 20px 0;
+
+  @include mixin.desktop {
+    border: none;
+  }
+
+  &__boxLeft {
+    @include mixin.desktop {
+      width: 40%;
+    }
+  }
+
+  &__content{
+    width: 100%;
+  }
+  
+  &__title {
+    font-size: 3.375rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+  
+    @include mixin.desktop {
+      font-size: 3.5rem;
+      line-height: 3.9375rem;
+    }
+
+    span {
+      color: #14141f;
+      background: linear-gradient(-45deg, #E250E5, #4B50E6, #E250E5, #4B50E6);
+      background-size: 100% 100%;
+      -webkit-background-clip: text;
+      -webkit-text-stroke: 3px transparent;
+      font-size: 2.5rem;
+
+      @include mixin.desktop {
+        font-size: 3.5rem;
+      }
+    }
+  }
+
+  &__subtitle{
+    margin-top: 30px;
+    margin-bottom: 44px;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: $white_2;
+  }
+
+  &__boxRight {
+    // width: 30%;
+    position: relative;
+    display: none;
+
+    @include mixin.tablet {
+      display: block;
+    }
+
+    @include mixin.desktop {
+      margin-right: 10%;
+    }
+  }
+
+  &__datail1 {
+    position: absolute;
+    top: 10%;
+    right: 50%;
+    transform: translateX(50%);
+    z-index: -1;
+    max-width: none;
+    width: 450px;
+
+    @include mixin.desktop {
+      width: 620px;
+    }
+  }
 }

@@ -1,0 +1,20 @@
+@use '../../../styles/mixin.scss' as mixin;
+
+.todaysPicks {
+  display: grid;
+  grid-template-columns: 100%;
+  column-gap: 2%;
+  row-gap: 15px;
+
+  @include mixin.tablet {
+    grid-template-columns: repeat(2, 49.01%);
+  }
+
+  @include mixin.desktop {
+    grid-template-columns: repeat(3, 32.01%);
+  }
+
+  @include mixin.xl-desktop {
+    grid-template-columns: repeat(4, 23.51%);
+  }
+}

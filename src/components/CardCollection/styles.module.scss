@@ -1,0 +1,86 @@
+@import '../../styles/variables.scss';
+
+.CardCollection {
+  background-color: #343444;
+  padding: 1.25rem;
+  border-radius: 1.25rem;
+  //max-width: 450px;
+
+  &__line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+  };
+
+  &__profile {
+    display: flex;
+    align-items: center;
+  };
+
+  &__avatarWrap {
+    margin-right: 12px;
+    position: relative;
+  }
+
+  &__avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  &__badge {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: -2px;
+    bottom: -2px;
+    background-color: $purple;
+    border-radius: 50%;
+    padding: .0625rem;
+  }
+
+  &__info {
+    line-height: 1.25rem;
+  }
+  
+  &__title {
+    color: $white;
+    font-size: 1.3125rem;
+    font-weight: 700;
+    display: block;
+    margin-bottom: .375rem;
+  };
+
+  &__author {
+    color: $white_2;
+    font-weight: 700;
+    margin-left: .25rem;
+  };
+
+
+  &__item_1 {grid-area: item-1;}
+  &__item_2 {grid-area: item-2;}
+  &__item_3 {grid-area: item-3;}
+  &__item_4 {grid-area: item-4;}
+
+  &__galleryWrap {
+    display: grid;
+    //grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    grid-template-areas: 
+    "item-1 item-2 item-3"
+    "item-1 item-4 item-4";
+
+    div {
+      border-radius: 10px;
+      overflow: hidden;
+    }
+  }
+
+  &__coverGallery {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

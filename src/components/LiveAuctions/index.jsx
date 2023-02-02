@@ -12,16 +12,16 @@ import NftCard from '../Nftcard';
 import SectionHeader from '../SectionHeader';
 
 const LiveAuction = () => {
-  const { data: auctionsData, loading: auctionsLoading, error: auctionsError } = useFetch('/liveAuctions');
+  const { data, loading, error } = useFetch('/liveAuctions/?_expand=users');
 
   return (
     <>
       <SectionHeader title='Live Auctions' link='Explore more' url='#' />
 
-      { auctionsLoading && <Loading />}
+      { loading && <Loading />}
 
       {
-        auctionsData &&
+        data &&
         <Swiper
           style={{paddingTop: '10px'}}
           slidesPerView={1}
@@ -41,16 +41,17 @@ const LiveAuction = () => {
           pagination={{clickable: true}} 
           modules={[Pagination]}
         >
-          {auctionsData.map( nft => 
+          {data.map( nft => 
             <SwiperSlide key={nft.id.toString()}>
               <NftCard 
+                id={nft.id}
                 name={nft.name} 
                 img={nft.img} 
-                role={nft.role}
-                profileAvatar={nft.profileImg}
-                profileName={nft.profileName}
                 price={nft.price}
                 current={nft.current}
+                profileName={nft.users.name}
+                profileAvatar={nft.users.img}
+                role={nft.users.role}
               />
             </SwiperSlide>
           )}
