@@ -13,7 +13,8 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.0",
     "sass": "^1.57.1",
-    "swiper": "^8.4.5"
+    "swiper": "^8.4.5",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",

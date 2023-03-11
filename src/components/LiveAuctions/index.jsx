@@ -6,7 +6,7 @@ import { Pagination } from "swiper";
 import 'swiper/css';
 import "swiper/css/pagination";
 
-import useFetch from '../../services/useFech';
+import useFetch from '../../hooks/useFetch';
 import Loading from '../Loading';
 import NftCard from '../Nftcard';
 import SectionHeader from '../SectionHeader';

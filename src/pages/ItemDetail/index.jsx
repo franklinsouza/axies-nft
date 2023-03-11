@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import useFetch from '../../services/useFech';
+import useFetch from '../../hooks/useFetch';
 import styles from './styles.module.scss';
 import Header from "../../components/Header";
 import LiveAuction from "../../components/LiveAuctions";

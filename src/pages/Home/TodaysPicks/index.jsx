@@ -1,4 +1,4 @@
-import useFetch from '../../../services/useFech';
+import useFetch from '../../../hooks/useFetch';
 import ButtonFilter from '../../../components/ButtonFilter';
 import Loading from '../../../components/Loading';
 import NftCard from '../../../components/Nftcard';
